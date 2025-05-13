@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.cabecalho {
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cabecalho h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho ul {
+    list-style: none;    
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    font-size: 1.4vw;
+    border: solid 2px white;
+    padding: 12px;
+    border-radius: 2vw;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}   
+
+.cards {
+    display: flex;
+    color: black;
+    margin-top: 10vw;
+    gap: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+}
+.card {
+    gap: 5px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 0.5vw;
+    padding: 1vw;
+    border: solid 2px #6e6e6e;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(118, 164, 216);
+    padding: 5px;
+    border: solid 1px, rgb(92, 92, 92);
+    border-radius: 10vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card img {
+    border-radius: 10%;
+    border: solid 2px black;
+    width: 12vw;
+}
+
+.ano {
+    font-weight: bold;
+    font-size: 1.2vw;
+}
