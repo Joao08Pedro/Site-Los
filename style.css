@@ -33,6 +33,19 @@ body {
     color: white;
 }   
 
+.sobre {
+    padding: 0.5vw;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+.sobre img{
+    width: 20%;
+    border-radius: 1vw;  
+    height: auto;
+}
+
 .cards {
     display: flex;
     color: black;

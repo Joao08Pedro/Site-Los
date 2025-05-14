@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
 }
 
@@ -17,13 +18,13 @@ body {
 }
 
 .cabecalho ul {
-    list-style: none;    
+    list-style: none;
     display: flex;
     gap: 3vw;
     align-items: center;
     font-size: 1.4vw;
     border: solid 2px white;
-    padding: 12px;
+    padding: 25px;
     border-radius: 2vw;
 }
 
@@ -31,14 +32,32 @@ body {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-}   
-
-.musicas {
-    background-color: rgb(250, 230, 206);
-    border-radius: 2vw;
-    
 }
 
-.musicas h1 {
-    color: ;
+.sobre {
+    padding: 0.5vw;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+.sobre img {
+    width: 20%;
+    border-radius: 1vw;
+    height: auto;
+}
+
+.album {
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 230, 206);
+    border-radius: 2vw;
+}
+
+.album ul {
+    display: flex;
+    gap: 1vw;
+    flex-direction: column;
+    
 }
