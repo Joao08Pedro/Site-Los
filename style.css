@@ -16,14 +16,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabecalho ul {
+.list ul {
     list-style: none;    
     display: flex;
     gap: 3vw;
     align-items: center;
     font-size: 1.4vw;
     border: solid 2px white;
-    padding: 12px;
+    padding: 2vw;
     border-radius: 2vw;
 }
 
@@ -49,10 +49,10 @@ body {
 .cards {
     display: flex;
     color: black;
-    margin-top: 10vw;
     gap: 5vw;
+    margin-top: 8vw;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .card {
     gap: 5px;
@@ -82,7 +82,7 @@ body {
     width: 12vw;
 }
 
-.ano {
+.year {
     font-weight: bold;
     font-size: 1.2vw;
 }
