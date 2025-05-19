@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: brown;
+    background-color: #a52a2a;
     display: flex;
     justify-content: space-evenly;
 }
@@ -47,6 +47,7 @@ body {
 }
 
 .album {
+    margin: 3vw;
     padding: 1vw;
     display: flex;
     flex-direction: column;
